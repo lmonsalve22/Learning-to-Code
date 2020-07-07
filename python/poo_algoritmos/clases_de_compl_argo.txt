@@ -1,0 +1,6 @@
+O(1) Constante
+O(n) Lineal
+O(log n) Logarítmica
+O(n log n) log lineal
+O(n**2) Polinomial
+O(2**n) Exponencial
