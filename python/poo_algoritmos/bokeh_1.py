@@ -1,7 +1,7 @@
 from bokeh.plotting import figure, output_file, show
 
 if __name__ == '__main__':
-	
+
 	output_file('graficado_simple.html')
 	fig = figure()
 
