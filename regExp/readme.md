@@ -1,5 +1,9 @@
 # Expresiones regulares
 
+## Info:
+
+- Curso de expresiones regulares en Platzi. [(enlace aquí)](https://platzi.com/clases/expresiones-regulares/)
+
 ## 1. Qué es y para qué sirven las expresiones regulares
 
 - Es una secuencia de caracteres que conforma un patrón de busqueda. Se utilizan principalmente para la busqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
@@ -64,9 +68,11 @@
   - `^\[LOG.*\[LOG\].*user:@beco\] .*$`
 
   10.4 Locaciones
+
   - `^\-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6},.*$`
  
   10.5 URL s
+
   - `https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*`
 
   10.6 Nombres
@@ -75,7 +81,7 @@
 
 ## 11. Búsqueda y reemplazo
 
-- `^\d+::([\w\s:,\(\)'\.\-&!\/]+)\s\((\d\d\d\d)\)::.*$`
+- Dado el archivo: `movies.dat`, usese la siguiente expresión regular: `^\d+::([\w\s:,\(\)'\.\-&!\/]+)\s\((\d\d\d\d)\)::.*$`
 
 ## 12. Python
 
