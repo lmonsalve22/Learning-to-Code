@@ -1,20 +1,22 @@
-1. Qué es y para qué sirven las expresiones regulares
+# Expresiones regulares
+
+## 1. Qué es y para qué sirven las expresiones regulares
 
 - Es una secuencia de caracteres que conforma un patrón de busqueda. Se utilizan principalmente para la busqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
 - Sirven para optimizar tiempo y evitar busquedas generalizadas.
 
-2. El caracter `.` 
+## 2. El caracter `.` 
 
 - Cada espacio es ocupado por un caracter.
 - El `.` denota cualquier caracter. Cabe mencionar que el 'match' ocurre por cada uno de los caracteres que se tiene en el texto.
 
-3. Las clases predefinidas
+## 3. Las clases predefinidas
 
 - `\w` -> Encuentra todos lo que puede ser parte de una palabra.
 - `\d` -> Encuentra todos los digitos.
 - `\s` -> Encuentra los 'white spaces' o espacios en blanco.
 
-4. Las clases construidas 
+## 4. Las clases construidas 
 
 - Dada la siguiente clase: `[a-zA-Z0-9_\.]`, vease la siguiente explicación: 
     - `[]` -> Abrir una clase.
@@ -24,32 +26,57 @@
     - `[_]` -> Busqueda personalizada para el 'guión bajo'.
     - `[\.]` -> El `\` permite 'escapar' de la clase operadora: `.`.
 
-3. Los delimitadores numéricos: `+`, `*`, `?`
-1. Los contadores `{1,4}`
+## 5. Los delimitadores numéricos: 
 
-1. Not `^`, su uso y sus peligros
+- `+` -> Encuentra uno o más. 'Si deben aparecer'.
+- `*` -> Encuentra todos los caracteres del antecesor. Cero o muchos. 'Si pueden aparecer'.
+- `?` -> Encuentra cero o uno.
 
-1. El caso de `?` como delimitador
+## 6. Los contadores 
 
-1. Principio (`$`) y final de línea (`^`)
+- `{1,4}` -> `1` es la cuota inicial y `4` la cuota final.
 
-1. Expresiones comunes:
-  1. mails
-  1. teléfonos
-  1. logs
-  1. nombres
-  1. locaciones
-    1. [what three words](https://what3words.com/)
+## 7. El caso de `?` como delimitador
 
-1. Búsqueda y reemplazo
+- Permite hacer los 'matchs' más pequeños.
+- Ejemplo: `.+?[,\n{1,1}]`, siendo el `?` el que nos permite tener un match más especifico de nuestra busqueda.
 
-1. Procesadores de texto
+## 8. Not `^`, su uso y sus peligros
 
-1. `grep` y `find` desde consola
+- Nos permite invertir o mostrar lo contrario a la clase escrita, por ejemplo en: `[^0-5a-c]`, el `^` niega toda la clase: `[0-5a-c]`.
 
-1. Regex en
+## 9. Principio (`^`) y final de línea (`$`)
 
-  1. PHP
-  1. Javascript
-  1. Python
-  1. Perl (aunque se burlen)
+- Permite la creación de patrones unicos y condicionales de linea.- Ejemplo: `^\d{3,5}$`, solo hará el 'match' en la linea que contenga dicha busqueda.
+
+## 10. Expresiones comunes:
+
+  10.1 Mails
+
+  - `[\w\._]{1,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}`
+
+  10.2. Teléfonos
+
+  - `^\+?\d{2,3}[^\da-z]?+[#pe]?\d*$`
+
+  10.3 Logs
+
+  - `^\[LOG.*\[LOG\].*user:@beco\] .*$`
+
+  10.4 Locaciones
+  - `^\-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6},.*$`
+ 
+  10.5 URL s
+  - `https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*`
+
+  10.6 Nombres
+
+  - `^[A-ZÑÁÉÍÓÚ]?[a-zñáéíóú]{3,}\s?[A-ZÑÁÉÍÓÚ]?[a-zñáéíóú]{0,}\s?[A-ZÑÁÉÍÓÚ]?[a-zñáéíóú]{0,}.*$`
+
+## 11. Búsqueda y reemplazo
+
+- `^\d+::([\w\s:,\(\)'\.\-&!\/]+)\s\((\d\d\d\d)\)::.*$`
+
+## 12. Python
+
+- `ver regex.py`
