@@ -15,17 +15,17 @@ class Netflix:
 
 	def _prender_tv(self):
 		print(f'Su TV {self.marca_tv.upper()} se esta encendiendo. BIENVENIDO')
-	
+
 	def _conectar_wifi(self):
 		print('Conectando a la red wifi...')
-	
+
 	def _smart_hub(self):
 		print('Smart Hub = Accediendo a Netflix')
-	
+
 	def _abrir_netflix(self):
 		print('¿Que desea ver hoy?')
 
 if __name__ == '__main__':
-	
+
 	lg = Netflix('lg')
 	lg.ver_catalogo()
