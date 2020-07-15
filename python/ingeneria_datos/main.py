@@ -28,23 +28,6 @@ def _news_scraper(news_site_uid):
     for link in homepage.article_links:
         article = _fetch_article(news_site_uid, host, link)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def _news_scraper(news_site_uid):
     host = config()['news_sites'][news_site_uid]['url']
 
