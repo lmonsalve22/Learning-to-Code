@@ -49,6 +49,13 @@
 
 ## 6. Estructura de nuestro sitio web
 
+- ver `index.html`
+
+## 7. Atributos HTML
+
+- Las etiquetas o 'tags', funcionan de tal manera que un enlace, imagen o archivo pueda comportarse como tal.
+
+
 
 
 
