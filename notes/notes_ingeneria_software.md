@@ -39,6 +39,7 @@
 - Las CPU tienen una mermoria llamada 'cache', que es donde se guardan las funciones más fundamentales del ordenador.
 - La memoria RAM es una memoria de acceso aleatorio, ya que es ahi donde se guardan muchas cosas.
 - Entre la CPU y la RAM hay un indice compartido, que permite saber donde esta el archivo que deseamos para poder correrlo en la PC.
+- Hola soy James Noria
 
 ## 6. GPUs, tarjetas de video y sonido
 
