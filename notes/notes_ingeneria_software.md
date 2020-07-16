@@ -42,6 +42,8 @@
 
 ## 6. GPUs, tarjetas de video y sonido
 
+- Teniendo un archivo, como ejemplo, `hola.txt` y queriendo ver su contenido en pantalla. La CPU se conecta con la GPU de manera integrada, donde la GPU contiene Cores y VRam, donde de esta manera proyecta la imagen en el monitor a traves de pixeles.
+
 ## 7. Periféricos y sistemas de entrada de información
 
 ## 8. Arquitectura de la computación
