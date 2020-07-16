@@ -33,7 +33,12 @@
 
 ## 5. Qué es la memoria RAM y cómo funcionan los discos duros
 
-- 
+- Un disco duro tiene una memoria persistente, quiere decir que no importa si desconectamos el aparato igual seguirá prendido.
+- Los archivos son secuenciales y estructurados, guardados en sistemas de archivos. ejemplo: `FAT` `NTFS`
+- Los discos duros tienen algo llamado 'cabecera' o indice de archivos, estos le indican como darle una orden al procesador para encontrar el archivo.
+- Las CPU tienen una mermoria llamada 'cache', que es donde se guardan las funciones más fundamentales del ordenador.
+- La memoria RAM es una memoria de acceso aleatorio, ya que es ahi donde se guardan muchas cosas.
+- Entre la CPU y la RAM hay un indice compartido, que permite saber donde esta el archivo que deseamos para poder correrlo en la PC.
 
 ## 6. GPUs, tarjetas de video y sonido
 
