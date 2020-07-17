@@ -55,7 +55,19 @@
 
 - Las etiquetas o 'tags', funcionan de tal manera que un enlace, imagen o archivo pueda comportarse como tal.
 
+## 8. Formas de agregar estilos a HTML
 
+Estilo en línea (Inline):
+Utiliza el atributo style.
+No es para nada recomendado ya que Html sirve para definir la estructura y semántica del código y no el aspecto visual, aquí estaríamos mezclando todo.
+
+Estilo interno (Internal):
+Utiliza una etiqueta style.
+Separa en cierto modo, de una forma menos sucia (por decirlo así). Esta forma sigue sin ser la más recomendada porque seguimos mezclando lo que es el aspecto visual con la estructura y semántica del código.
+
+Estilo externo (External):
+Utilizando un archivo CSS externo al documento HTML.
+Esta es la forma más recomendada porque estamos separando totalmente la estructura y semántica con el aspecto visual.
 
 
 
