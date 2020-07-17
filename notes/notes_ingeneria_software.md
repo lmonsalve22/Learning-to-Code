@@ -46,7 +46,15 @@
 
 ## 7. Periféricos y sistemas de entrada de información
 
+- Los sistemas operativos tienen un kernel o nucleo que es lo primero que carga la memoria RAM cuando encendemos nuestro sistema operativo.
+- Luego, se cargan los drivers.
+- Se continua con drivers de arranque.
+- Por ultimo, esta la capa donde cargan las aplicaciones ya que ellas no deberían poder entrar a las cosas internas de nuestro navegador.
+- Existe un permiso llamado `secure enclave` que es una manera de encriptar datos personales.
+
 ## 8. Arquitectura de la computación
+
+- Tarjetas perforadas -> Cintas Magnéticas -> Disquetes de 5’25" -> Disquetes de 3’5" -> CD -> Discos Flash (usb) -> Discos duros portátiles -> Almacenamiento Cloud
 
 ## 9. Introducción a las redes, protocolos e Internet
 
