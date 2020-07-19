@@ -73,3 +73,28 @@
 
 ![imagen_selectores]
 
+## 10. Unidades de medida y colores
+    
+- Podemos representar un color de 3 formas dentro de CSS:
+
+    Palabra clave: red, blue, pink, etc.
+    Hexadecimales: 0123456789ABCDEF
+    hls() hlsa()
+
+    #000000 = Negro
+    #FFFFFF = Blanco
+
+Se representan por grupos de 2 -> Red, Green, Blue
+
+    #FF0000 = Rojo
+    #00FF00 = Verde
+    #0000FF = Azul
+
+Para obtener un color más exacto se utiliza rgb o rgba:
+
+    rgb(0, 200, 145)
+    rgba(0, 50, 70, 0.5) para obtener transparencia
+
+¿Qué es un pixel?
+La menor unidad homogenea en color que forma parte de una imagen digital.
+
