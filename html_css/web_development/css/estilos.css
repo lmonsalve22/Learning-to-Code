@@ -23,11 +23,20 @@ h1 {
   line-height: 1.5;
   letter-spacing: -.2px;
   color: white;
-  margin: 100px 150px 70px 30px;
+  margin: 0;
 }
 
 h1 strong {
   color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .hero {
@@ -37,10 +46,13 @@ h1 strong {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
   background: #fafafa;
+  padding: 20px;
 }
 
 .project {
@@ -57,6 +69,29 @@ h1 strong {
   margin-bottom: 15px;
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.projectstrong {
+  font-family: 'Fjalla One' sans-serif;
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-details {
@@ -70,9 +105,105 @@ h1 strong {
 .header {
   background-color: #1b2127;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.flexbox {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  flex-shrink: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: white;
+}
+
+.even-list {
+  display: flex;
+}
+
+.even-list-title {
+  margin-left: 10px;
+}
+
+.event {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-url {
+  border: 1px solid #056fff;
+  color: #056fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }

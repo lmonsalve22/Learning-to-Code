@@ -1,75 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8"/> 
-    <title>James Noria</title>
-    <link rel="icon" type="image/png" href="imagenes/favicon-16x16.png">
-    <linkhref="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap"rel="stylesheet">
-    <linkrel="stylesheet"href="css/estilos.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <title>James Noria</title>
+  <link rel="icon" type="image/png" href="imagenes/favicon-16x16.png">
+  <linkhref="https: //fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap"rel="stylesheet">
+    <linkrel="stylesheet"href="css /estilos.css" />
     <link rel="stylesheet" href="css/estilos.css">
-  </head>
-  <body>
-    <header class="header">
-      <a href="">uno</a>
-      <a href="">dos</a>
-      <div>
-        <figure class="logo">
-          <img src="imagenes/apple_logo.png" alt="Logo de http://jamesnoria.com"/ width="100"> logo
-        </figure>
-        <nav class="menu">
-          <ol>
-            <li>
-              <a class="link" href="#portafolio">Portafolio</a>
-            </li>
-            <li>
-              <a class="link href="#eventos">Experiencia</a>
-            </li>
-            <li>
-              <a class="link href="#contacto">Trabajemos juntos</a>
-            </li>
-          </ol>
-        </nav>
+</head>
+
+<body>
+  <header class="header">
+    <figure class="logo">
+      <img src="imagenes/favicon-16x16.png" alt="Logo de http://jamesnoria.com" / width="50">
+    </figure>
+    <nav class="menu">
+      <ol>
+        <li>
+          <a class="link" href="#portafolio">Portafolio</a>
+        </li>
+        <li>
+          <a class="link href=" #eventos">Experiencia</a>
+        </li>
+        <li>
+          <a class="link href=" #contacto">Trabajemos juntos</a>
+        </li>
+      </ol>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>
+      Hola! soy <strong> James Noria </strong> <br> Desarrollador Python
+    </h1>
+    <!-- <img src="imagenes/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> imagen de portada -->
+  </section>
+  <section id="portafolio" class="portfolio">
+    <h2>Portafolio (Proyectos destacados)</h2>
+    <article class="project">
+      <div class="project-details">
+        <h3 class="project-title">Platzi Video</h3>
+        <h6 class="project-course">Pyhton / Django</h6>
+        <p class="project-date"><small><strong>Fecha:</strong>01/07/2020</small></p>
+        <p class="project-url"><small><strong>Puedes verlo en:</strong>jamesnoria.com</small></p>
+        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perferendis?
+          Accusamus provident fugiat debitis aut eius cupiditate inventore exercitationem delectus quos unde consequatur
+          facere laborum molestias, possimus adipisci distinctio explicabo?</p>
       </div>
-    </header>
-    <section class="hero">
-      <h1>
-        Hola! soy <strong> James Noria </strong> <br> Desarrollador Python
-      </h1>
-      <!-- <img src="imagenes/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> imagen de portada -->
-    </section>
-    <section id="portafolio" class="portfolio">
-      <h2>Portafolio (Proyectos destacados)</h2>
-      <article class="project">
-        <div class="project-details">
-          <h3 class="project-title">Platzi Video</h3>
-          <h6 class="project-course">Pyhton / Django</h6>
-          <p class="project-date"><small><strong>Fecha:</strong>01/07/2020</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong>jamesnoria.com</small></p>
-          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perferendis? Accusamus provident fugiat debitis aut eius cupiditate inventore exercitationem delectus quos unde consequatur facere laborum molestias, possimus adipisci distinctio explicabo?</p>
-        </div>
-        <figure class="project-imageContainer">
-          <img class="project-image" width="500" src="imagenes/chuluypacho.jpg" alt="chulus">
-        </figure>
-      </article>
-    </section>
-    <section id="eventos">
-      <h2>Más sobre mi Experiencia</h2>
-      <article class="event">
-        <figure class="event-imageContainer">
-          <img class="event-image" src="imagenes/family.jpg" width="500" height="300">
-        </figure>
+      <figure class="project-imageContainer">
+        <img class="project-image" width="500" src="imagenes/chuluypacho.jpg" alt="chulus">
+      </figure>
+    </article>
+  </section>
+  <h2 class="event-list-title">Más sobre mi Experiencia</h2>
+  <section id="eventos" class="even-list">
+    <article class="event">
+      <figure class="event-imageContainer">
+        <img class="event-image" src="imagenes/family.jpg" width="500" height="300">
+      </figure>
+      <div class="event-detail">
         <h3 class="event-title">Platzi Conf Perú 2020</h3>
         <p class="event-description">El evento más grande que se tiene al año</p>
         <a class="event.url" href="https://www.youtube.com/watch?v=Q6yVZoz36yAr" target="_blank">Ver platica</a>
-      </article>
-    </section>
-    <section id="contacto" class="contact">
-      <form action="/suscripcion/" class="form-email">
-        <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Dejame tu email" id="email">
-        <button>Enviar</button>
-      </form>
-    </section>
-    <footer class="footer">footer</footer>
-  </body>
+      </div>
+    </article>
+    <article class="event">
+      <figure class="event-imageContainer">
+        <img class="event-image" src="imagenes/family.jpg" width="500" height="300">
+      </figure>
+      <div class="event-detail">
+        <h3 class="event-title">Platzi Conf Perú 2020</h3>
+        <p class="event-description">El evento más grande que se tiene al año</p>
+        <a class="event.url" href="https://www.youtube.com/watch?v=Q6yVZoz36yAr" target="_blank">Ver platica</a>
+      </div>
+    </article>
+    <article class="event">
+      <figure class="event-imageContainer">
+        <img class="event-image" src="imagenes/family.jpg" width="500" height="300">
+      </figure>
+      <div class="event-detail">
+        <h3 class="event-title">Platzi Conf Perú 2020</h3>
+        <p class="event-description">El evento más grande que se tiene al año</p>
+        <a class="event.url" href="https://www.youtube.com/watch?v=Q6yVZoz36yAr" target="_blank">Ver platica</a>
+      </div>
+    </article>
+    <article class="event">
+      <figure class="event-imageContainer">
+        <img class="event-image" src="imagenes/family.jpg" width="500" height="300">
+      </figure>
+      <div class="event-detail">
+        <h3 class="event-title">Platzi Conf Perú 2020</h3>
+        <p class="event-description">El evento más grande que se tiene al año</p>
+        <a class="event.url" href="https://www.youtube.com/watch?v=Q6yVZoz36yAr" target="_blank">Ver platica</a>
+      </div>
+    </article>
+  </section>
+  <section id="contacto" class="contact">
+    <form action="/suscripcion/" class="form-email">
+      <h3>¿Creamos algo juntos?</h3>
+      <input type="text" placeholder="Dejame tu email" id="email">
+      <button>Enviar</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <div>
+      <p>James Noria 2020</p>
+    </div>
+    <div>
+      <p>Design with <3 by @jamesnoria</p>
+    </div>
+  </footer>
+</body>
+
 </html>
