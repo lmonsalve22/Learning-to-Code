@@ -57,27 +57,54 @@
 
 ## 8. Formas de agregar estilos a HTML
 
-Estilo en línea (Inline):
-Utiliza el atributo style.
-No es para nada recomendado ya que Html sirve para definir la estructura y semántica del código y no el aspecto visual, aquí estaríamos mezclando todo.
+- Estilo en línea (Inline):
+    - Utiliza el atributo style.
+    - No es para nada recomendado ya que Html sirve para definir la estructura y semántica del código y no el aspecto visual, aquí estaríamos mezclando todo.
 
-Estilo interno (Internal):
-Utiliza una etiqueta style.
-Separa en cierto modo, de una forma menos sucia (por decirlo así). Esta forma sigue sin ser la más recomendada porque seguimos mezclando lo que es el aspecto visual con la estructura y semántica del código.
+- Estilo interno (Internal):
+    -Utiliza una etiqueta style.
+    -Separa en cierto modo, de una forma menos sucia (por decirlo así). Esta forma sigue sin ser la más recomendada porque seguimos mezclando lo que es el aspecto visual con la estructura y semántica del código.
 
-Estilo externo (External):
-Utilizando un archivo CSS externo al documento HTML.
-Esta es la forma más recomendada porque estamos separando totalmente la estructura y semántica con el aspecto visual.
+- Estilo externo (External):
+    -Utilizando un archivo CSS externo al documento HTML.
+    -Esta es la forma más recomendada porque estamos separando totalmente la estructura y semántica con el aspecto visual.
 
+## 9. Reglas, selectores, declaraciones, propiedades y valores de CSS
 
+![imagen_selectores]
 
+## 10. Unidades de medida y colores
+    
+- Podemos representar un color de 3 formas dentro de CSS:
 
+    Palabra clave: red, blue, pink, etc.
+    Hexadecimales: 0123456789ABCDEF
+    hls() hlsa()
 
+    #000000 = Negro
+    #FFFFFF = Blanco
 
+Se representan por grupos de 2 -> Red, Green, Blue
 
+    #FF0000 = Rojo
+    #00FF00 = Verde
+    #0000FF = Azul
 
+Para obtener un color más exacto se utiliza rgb o rgba:
 
+    rgb(0, 200, 145)
+    rgba(0, 50, 70, 0.5) para obtener transparencia
 
+¿Qué es un pixel?
+La menor unidad homogenea en color que forma parte de una imagen digital.
 
+## 11.
 
+background-color para agregar unn color de fondo
+color para agregar un color al texto
+text-decoration para modificar la decoración del texto
+background-image para agregar una imagen de fondo
+background-size para modificar el tamaño del background asignado
+background-repeat para modificar la repetición del backgound asignado
+background-position para modificar la posición del bakground asignado
 
