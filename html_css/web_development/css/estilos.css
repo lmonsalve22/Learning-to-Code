@@ -170,6 +170,7 @@ figure {
 
 .even-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .even-list-title {
@@ -206,4 +207,66 @@ figure {
   padding: 5px 20px;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  background-size: 30px 30px;
+}
+
+.social-link.twitter {
+  background-image: url('../imagenes/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('../imagenes/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('../imagenes/github.svg');
+}
+
+.social-link.medium {
+  background-image: url('../imagenes/medium.svg');
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../imagenes/correo.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
