@@ -71,40 +71,39 @@
 
 ## 9. Reglas, selectores, declaraciones, propiedades y valores de CSS
 
-![imagen_selectores]
+![selectores](https://github.com/jamesnoria/Learning-to-Code/blob/master/html_css/web_development/imagenes/selectores.jpg)
 
 ## 10. Unidades de medida y colores
     
 - Podemos representar un color de 3 formas dentro de CSS:
 
-    Palabra clave: red, blue, pink, etc.
-    Hexadecimales: 0123456789ABCDEF
-    hls() hlsa()
+    -Palabra clave: red, blue, pink, etc.
+    - Hexadecimales: 0123456789ABCDEF
+    - hls() hlsa()
 
-    #000000 = Negro
-    #FFFFFF = Blanco
+    - #000000 = Negro
+    - #FFFFFF = Blanco
 
-Se representan por grupos de 2 -> Red, Green, Blue
+- Se representan por grupos de 2 -> Red, Green, Blue
 
-    #FF0000 = Rojo
-    #00FF00 = Verde
-    #0000FF = Azul
+    - #FF0000 = Rojo
+    - #00FF00 = Verde
+    - #0000FF = Azul
 
-Para obtener un color más exacto se utiliza rgb o rgba:
+- Para obtener un color más exacto se utiliza rgb o rgba:
 
-    rgb(0, 200, 145)
-    rgba(0, 50, 70, 0.5) para obtener transparencia
+    - rgb(0, 200, 145)
+    - rgba(0, 50, 70, 0.5) para obtener transparencia
 
-¿Qué es un pixel?
-La menor unidad homogenea en color que forma parte de una imagen digital.
+- ¿Qué es un pixel?
+    -La menor unidad homogenea en color que forma parte de una imagen digital.
 
-## 11.
+## 11. Tipos de Background
 
-background-color para agregar unn color de fondo
-color para agregar un color al texto
-text-decoration para modificar la decoración del texto
-background-image para agregar una imagen de fondo
-background-size para modificar el tamaño del background asignado
-background-repeat para modificar la repetición del backgound asignado
-background-position para modificar la posición del bakground asignado
-
+- background-color para agregar unn color de fondo
+- color para agregar un color al texto
+- text-decoration para modificar la decoración del texto
+- background-image para agregar una imagen de fondo
+- background-size para modificar el tamaño del background asignado
+- background-repeat para modificar la repetición del backgound asignado
+- background-position para modificar la posición del bakground asignado
