@@ -8,7 +8,7 @@
 
 ## Requierements
 
-- Inside `requierements.txt` you can find all packages that are necesaries for this foder if you decide to clone or download.
+- Inside `requierements.txt` you can find all packages that are necessary for this folder if you decide to clone or download it.
 
 `$ pip3 install -r requirements.txt`
 
