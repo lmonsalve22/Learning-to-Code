@@ -11,10 +11,6 @@
 
     - Online courses, books and some random practices.
 
-- `./notes/`
-
-    - Some notes of theoretical classes.
-
 - `./python/`
 
     - Online courses, books and some random practices of libraries with a special focus on data science and ML.
