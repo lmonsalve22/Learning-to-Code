@@ -7,19 +7,19 @@
 
 ## Content
 
-- `../html_css/`
+- `./html_css/`
 
     - Online courses, books and some random practices.
 
-- `../notes/`
+- `./notes/`
 
     - Some notes of theoretical classes.
 
-- `../python/`
+- `./python/`
 
     - Online courses, books and some random practices of libraries with a special focus on data science and ML.
 
-- `../regExp/`
+- `./regExp/`
 
     - Online course about regular expressions and some scripts of regex implementation in Python.
 
