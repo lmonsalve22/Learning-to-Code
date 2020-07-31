@@ -2,7 +2,7 @@
 
 ## Description
 
-- This is a repository that covers all my journey as a programmer, saving all the content that use to learn about this awesome world.
+- This is a repository that covers all my journey as a programmer, saving all the content that I use to learn about this awesome world.
 - Feel free to use this code as better you consider.
 
 ## Content
