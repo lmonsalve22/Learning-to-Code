@@ -1,0 +1,5 @@
+fun
+love
+awesome
+is nice
+i like python
