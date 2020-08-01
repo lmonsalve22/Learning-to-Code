@@ -2,7 +2,7 @@
 
 ## Description
 
-- This folder covers all exercises (projects included) from the book: "Python Crash Book" by Eric Matthes.
+- This folder covers all exercises (projects included) from the book: "Python Crash Course" by Eric Matthes.
 
 - [This is the link of the book.](https://nostarch.com/pythoncrashcourse2e)
 
