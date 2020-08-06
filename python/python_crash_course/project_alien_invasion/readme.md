@@ -8,7 +8,15 @@
 
 - The steps for installing *pygame* are different depending on what OS you are using. [Documentation here](https://www.pygame.org/wiki/GettingStarted#Debian/Ubuntu/Mint)
 
+- This repository do not cover all exercises because makes a special focus in the main project.
+
 ## Try it yourself
 
 - Exercise 12-1 and 12-2 are included in `blue_sky.py` and `robot.py`
-- 
+
+## Contact me 
+
+- [![Twitter Badge](https://img.shields.io/badge/-James_Noria-1ca0f1?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/jamesnoria)](https://twitter.com/jamesnoria) [![Gmail Badge](https://img.shields.io/badge/-jamesnoria@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jamesnoria@gmail.com)](mailto:jamesnoria@gmail.com) [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/jamesnoria)
+
+
+
