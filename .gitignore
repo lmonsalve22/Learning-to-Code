@@ -235,3 +235,5 @@ pdf
 *.3dm
 *.max
 
+#CSV
+*.csv
