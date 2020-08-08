@@ -1,6 +1,6 @@
 # THE ALIEN INVASION
 
-![Final result](https://github.com/jamesnoria/Learning-to-Code/blob/pcc/python/python_crash_course/project_alien_invasion/images/game_random.gif)
+![Final result](https://github.com/jamesnoria/Learning-to-Code/blob/master/python/python_crash_course/project_alien_invasion/images/game_random.gif)
 
 ## Planning the project
 
