@@ -22,7 +22,7 @@
 
 - For space reasons I do not include in this repository all my `.png .gif .jpg` files (see `~/.gitignore`), so If you want to use this folder, after cloning, please consider to download the folder `/images` from this link: [click here](https://drive.google.com/drive/folders/1BovgiUoTjhJOiZfjAf7m6aeZqWup20-f?usp=sharing) and then paste it here. 
 
-- The main project include this files: `alien.py`, `alien_invasion.py`, `bullet.py`, `button.py`, `game_functions.py`, `game_stats.py`, `scoreboard.py`, `settings.py`, and `ship.py`. 
+- The main project include these files: `alien.py`, `alien_invasion.py`, `bullet.py`, `button.py`, `game_functions.py`, `game_stats.py`, `scoreboard.py`, `settings.py`, and `ship.py`. 
 
 
 ## Try it yourself
