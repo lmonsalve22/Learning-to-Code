@@ -3,8 +3,13 @@
 ## Description
 
 - This is a repository that covers all my journey as a programmer, saving all the content that I use to learn about this awesome world.
+
 - Feel free to use this code as better you consider.
 
+- Consider to clone this repository, copy and paste this line on your terminal:
+    ```sh
+    git clone https://github.com/jamesnoria/Learning-to-Code.git
+    ```
 ## Content
 
 - `./html_css/`
@@ -19,10 +24,15 @@
 
     - Online course about regular expressions and some scripts of regex implementation in Python.
 
+## Good to know
+
+- For space reasons I do not include in this repository all my `.png .jpg .gif` or similar (see `.gitignore`). While you open folders where this kind of file are required you could find a link to download the entire 'image folder' inside the README. Just let me know If you have some trouble with this. 
+
+
 ## License
 
 - Distributed under the MIT license. See `LICENSE` for more information.
 
 ## Contact me
 
-[![Twitter Badge](https://img.shields.io/badge/-James_Noria-1ca0f1?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/jamesnoria)](https://twitter.com/jamesnoria) [![Gmail Badge](https://img.shields.io/badge/-jamesnoria@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jamesnoria@gmail.com)](mailto:jamesnoria@gmail.com) [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/jamesnoria) 
+- [![Twitter Badge](https://img.shields.io/badge/-James_Noria-1ca0f1?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/jamesnoria)](https://twitter.com/jamesnoria) [![Gmail Badge](https://img.shields.io/badge/-jamesnoria@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jamesnoria@gmail.com)](mailto:jamesnoria@gmail.com) [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/jamesnoria) 
