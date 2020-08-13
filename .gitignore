@@ -235,5 +235,6 @@ pdf
 *.3dm
 *.max
 
-#CSV
+#CSV & JSON
 *.csv
+*.json
