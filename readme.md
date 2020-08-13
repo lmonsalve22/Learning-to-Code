@@ -6,7 +6,7 @@
 
 - Feel free to use this code as better you consider.
 
-- Consider to clone this repository, copy and paste this line on your terminal:
+- Consider to clone this repository, copy and paste this line in your terminal:
     ```sh
     git clone https://github.com/jamesnoria/Learning-to-Code.git
     ```
