@@ -28,6 +28,7 @@
 
 - For space reasons I do not include in this repository all my `.png .jpg .gif` or similar (see `.gitignore`). While you open folders where this kind of file are required you could find a link to download the entire 'image folder' inside the README. Just let me know If you have some trouble with this. 
 
+- I'm not a native english speaker, so If you find some mistakes inside the text or similar, please consider this info.
 
 ## License
 
